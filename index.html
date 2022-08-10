@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    
+   <!-- GOOGLE FONTS --> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+<!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css"/>
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+      
+    <picture>
+    <source class="desktop-back" media="(min-width: 375px)" 
+    srcset="pattern-background-desktop.svg">
+  <img class="mobile-back" src="pattern-background-mobile.svg" alt="">
+    </picture>
+    
+    <main class="order-card">
+      <img src="illustration-hero.svg" alt=""/>
+
+      <section class="card-content" >
+<header class="center-text-align order-card-header">
+    <h1 class="heading-text-color">Order Summary</h1>
+    <p class="main-text content-text-color">
+      You can now listen to millions of songs, audiobooks, and podcasts on any
+      device anywhere you like!
+    </p>
+</header>
+     
+
+<section class="order-card-body"> 
+  <img src="icon-music.svg" alt="">
+
+  <div class="flex details">
+ <p class="heading-text-color">Annual Plan</p>
+ <p class="content-text-color">$59.99/year</p>
+  </div>
+
+     <a href="#">Change </a> 
+   
+</section>
+
+<footer class="center-text-align flex">
+   <button type="button">Proceed to Payment</button>
+     <a class="content-text-color" href="#">Cancel Order</a>
+</footer>
+
+  
+
+    </main>
+<!-- 
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>. -->
+    </div>
+  </body>
+</html>

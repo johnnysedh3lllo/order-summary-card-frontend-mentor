@@ -1,0 +1,210 @@
+/* Variables */
+:root {
+  /* COLORS */
+  --clr-primary-100: hsl(0, 0%, 100%);
+  --clr-primary-200: hsl(225, 100%, 94%);
+  --clr-primary-300: hsl(245, 75%, 52%);
+
+  --clr-neutral-100: hsl(225, 100%, 98%);
+  --clr-neutral-200: hsl(224, 23%, 55%);
+  --clr-neutral-300: hsl(223, 47%, 23%);
+
+  /* FONT SIZE */
+  --fs-primary: 1rem;
+
+  /* FONT FAMILY */
+  --ff-primary: "Red Hat Display", sans-serif;
+
+  --fw-primary-100: 500;
+  --fw-primary-200: 700;
+  --fw-primary-300: 900;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* UTILITY CLASSES */
+.heading-text-color{
+color: var(--clr-neutral-300);
+}
+
+.content-text-color{
+color: var(--clr-neutral-200);
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.center-text-align{
+    text-align: center;
+}
+
+/* I STARTED HERE */
+body {
+  font-family: var(--ff-primary);
+  background-color: var(--clr-primary-200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: var(--fw-primary-100);
+  position: relative;
+}
+
+picture {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.order-card {
+    background-color: var(--clr-primary-100);
+   width: 24rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-content{
+    padding: 2em;
+}
+
+h1{
+    padding-bottom: 1em;
+    font-weight: var(--fw-primary-300);
+}
+
+p.main-text{
+    padding: 0 1.4em;
+}
+
+.order-card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-neutral-100);
+    padding: 1.2em;
+    border-radius: 10px;
+    margin: 2em 0;
+}
+
+.order-card-body a{
+    font-weight: var(--fw-primary-200);
+    color: var(--clr-primary-300);
+}
+
+.details{
+flex-basis: 45%;
+}
+
+.details .heading-text-color{
+    font-weight: var(--fw-primary-300);
+}
+
+footer{
+  font-weight: var(--fw-primary-200);
+  gap: 2em;
+}
+
+button {
+    color: var(--clr-neutral-100);
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--clr-primary-300);
+padding: 1em;
+box-shadow: 1px 10px 50px 0 hsla(245, 75%, 65%, 0.6);
+}
+
+
+a.content-text-color {
+    text-decoration: none;
+}
+
+
+/* Active States */
+.order-card-body a:hover{
+--clr-primary-300: hsl(245, 75%, 65%);
+    color: --clr-primary-300;
+    text-decoration: none;
+}
+
+button:hover{
+   --clr-primary-300: hsl(245, 75%, 65%);
+    background-color: --clr-primary-300;
+}
+
+a.content-text-color:hover {
+    color: var(--clr-neutral-300);
+}
