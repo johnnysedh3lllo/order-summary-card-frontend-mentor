@@ -38,7 +38,7 @@ Users should be able to:
 - Desktop-first workflow
 
 ### What I learned
-with this challenge i was able to learn how to use the HTML <source> srcset Attribute.
+with this challenge i was able to learn how to use the **HTML <source> srcset Attribute**.
 
 ```html
 <picture>
