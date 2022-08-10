@@ -53,7 +53,7 @@ in the later challenges i will be focusing on understanding responsive layouts a
 
 ### Useful resources
 
-- [w3schools] (https://www.w3schools.com) - this helped me understand how to use the HTML <source> srcset Attribute
+- [w3schools] (https://www.w3schools.com) - this helped me understand how to use the **HTML <source> srcset Attribute**
 
 
 ## Author
