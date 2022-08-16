@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor] (https://www.frontendmentor.io/solutions/order-summary-card-component-built-with-css-flexbox-jUsqajb_WE)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-card-component-built-with-css-flexbox-jUsqajb_WE)
 
-- Live Site URL: [GitHub] (https://johnnysedh3lllo.github.io/order-summary-card-frontend-mentor/)
+- Live Site URL: [GitHub](https://johnnysedh3lllo.github.io/order-summary-card-frontend-mentor/)
 
 ## My process
 
@@ -53,15 +53,15 @@ in the later challenges i will be focusing on understanding responsive layouts a
 
 ### Useful resources
 
-- [w3schools] (https://www.w3schools.com) - this helped me understand how to use the **HTML <source> srcset Attribute**
+- [w3schools](https://www.w3schools.com) - this helped me understand how to use the **HTML <source> srcset Attribute**
 
 
 ## Author
-- GitHub - [johnnysedh3lllo] (https://github.com/johnnysedh3lllo)
+- GitHub - [johnnysedh3lllo](https://github.com/johnnysedh3lllo)
 
-- Frontend Mentor - [@johnnysedh3lllo] (https://www.frontendmentor.io/profile/johnnysedh3lllo)
+- Frontend Mentor - [@johnnysedh3lllo](https://www.frontendmentor.io/profile/johnnysedh3lllo)
 
 - Twitter - [@johnnysedh3lllo](https://www.twitter.com/johnnysedh3lllo)
 
 ## Acknowledgments
-i want to thank [Eric Beaulieu] (https://www.frontendmentor.io/profile/cyberic67) for commenting on my first Frontend Mentor challenge. it was because of his comment that i came to know about the HTML <source> srcset Attribute. and when i was going through this challenge his comment also served as a reference, so thank you Eric.
+i want to thank [Eric Beaulieu](https://www.frontendmentor.io/profile/cyberic67) for commenting on my first Frontend Mentor challenge. it was because of his comment that i came to know about the HTML <source> srcset Attribute. and when i was going through this challenge his comment also served as a reference, so thank you Eric.
